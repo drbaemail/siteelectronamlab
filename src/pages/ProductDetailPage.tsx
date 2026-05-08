@@ -24,109 +24,109 @@ interface GearInfo {
 }
 
 const artistGearData: Record<string, GearInfo> = {
-  'eric-johnson': {
+  'cliffs-of-manhattan': {
     description:
-      'This NAM Pack captures the quintessential Eric Johnson tone — a sound built on the duality of pristine Fender Twin Reverb cleans and the searing sustain of a Marshall Plexi pushed into harmonic saturation. The signal chain is meticulously modeled: a Dallas Arbiter Fuzz Face feeds into a Chandler Tube Driver, creating the signature violin-like sustain of his lead work. Every nuance is preserved — from the bell-like clarity of "Cliffs of Dover" cleans to the soaring sustain of his lead lines. The pack includes two distinct amp channels: the Twin for crystalline clean tones with just a hint of compression, and the Plexi for singing lead lines with rich harmonic overtones.',
+      'This NAM Pack captures a quintessential tone — a sound built on the duality of pristine Fender Twin Reverb cleans and the searing sustain of a Marshall Plexi pushed into harmonic saturation. The signal chain is meticulously modeled: a Dallas Arbiter Fuzz Face feeds into a Chandler Tube Driver, creating signature violin-like sustain. Every nuance is preserved — from bell-like clarity to soaring lead lines. The pack includes two distinct amp channels: the Twin for crystalline clean tones, and the Plexi for singing lead lines with rich harmonic overtones.',
     amps: ['Fender Twin Reverb (Clean Channel)', 'Marshall Plexi 100W (Lead Channel)', 'Marshall JTM45'],
     cabinets: ['Fender 2x12 Twin Cabinet', 'Marshall 4x12 Straight (G12M-25 Greenbacks)', 'Marshall 4x12 Slant (G12H-30)'],
     pedals: ['Dallas Arbiter Fuzz Face (Germanium)', 'Chandler Tube Driver'],
     microphones: ['Shure SM57 (On-Axis)', 'Shure SM57 (Off-Axis)', 'Neumann U87 (Room)', 'Royer R-121 (Ribbon)'],
     imageQuery: 'vintage-fender-amp',
   },
-  'jimi-hendrix': {
+  'voodoo-experience': {
     description:
-      'This NAM Pack captures the revolutionary tone of Jimi Hendrix — the psychedelic fuzz that redefined electric guitar. Built around a Marshall Super Lead 100W plexi cranked to its sweet spot, the signal chain faithfully models the Dallas Arbiter Fuzz Face pushing the amp into rich, harmonic saturation. The pack captures both the aggressive, feedback-laden lead tones and the surprisingly delicate clean passages Hendrix coaxed from his Stratocaster.',
+      'This NAM Pack captures the revolutionary psychedelic fuzz that redefined electric guitar. Built around a Marshall Super Lead 100W plexi cranked to its sweet spot, the signal chain faithfully models the Dallas Arbiter Fuzz Face pushing the amp into rich, harmonic saturation. The pack captures both the aggressive, feedback-laden lead tones and the surprisingly delicate clean passages coaxed from a Stratocaster.',
     amps: ['Marshall Super Lead 100W (Plexi)', 'Fender Bassman (Blues Breakup)'],
     cabinets: ['Marshall 4x12 Straight (G12M-25 Greenbacks)', 'Marshall 4x12 Slant (G12H-30)'],
     pedals: ['Dallas Arbiter Fuzz Face (Germanium)'],
     microphones: ['Shure SM57 (On-Axis)', 'Royer R-121 (Ribbon)', 'Neumann U87 (Room)', 'Sennheiser MD421'],
     imageQuery: 'marshall-plexi-amp',
   },
-  'slash': {
+  'appetite-for-rock': {
     description:
-      'This NAM Pack captures the searing Les Paul through Marshall tone that defined an era of rock. Slash\'s sound is built on the JCM 800 pushed hard with a Les Paul Standard, delivering that unmistakable midrange crunch — rich, vocal, and endlessly sustaining. A Boss GE-7 provides the midrange boost that cuts through any mix. From the opening riff of "Sweet Child O\' Mine" to the epic solo of "November Rain," every nuance of this iconic tone is captured.',
+      'This NAM Pack captures the searing Les Paul through Marshall tone that defined an era of rock. Built on the JCM 800 pushed hard with a Les Paul Standard, delivering that unmistakable midrange crunch — rich, vocal, and endlessly sustaining. A Boss GE-7 provides the midrange boost that cuts through any mix. Every nuance of this iconic hard rock tone is captured.',
     amps: ['Marshall JCM 800 2203 (100W)', 'Marshall Silver Jubilee 2555', 'Marshall 1959 Super Lead'],
     cabinets: ['Marshall 4x12 Straight (G12M-25 Greenbacks)', 'Marshall 4x12 Slant (Vintage 30)'],
     pedals: ['Boss GE-7 Equalizer (Mid Boost)'],
     microphones: ['Shure SM57 (On-Axis)', 'Shure SM57 (Off-Axis)', 'Sennheiser MD421', 'Neumann U87 (Room)'],
     imageQuery: 'marshall-jcm-amp',
   },
-  'david-gilmour': {
+  'dark-side-of-the-wall': {
     description:
-      'This NAM Pack captures the infinite sustain and atmospheric tone that made "Comfortably Numb" legendary. Gilmour\'s sound is a masterclass in signal chain design — a Hiwatt DR103 providing the clean headroom, fed by an Electro-Harmonix Big Muff Pi for singing sustain, a Dallas Arbiter Fuzz Face for aggressive leads, and a Colorsound Power Boost for pushing the front end. This pack delivers both the crystalline clean tones and the soaring, sustain-rich lead sounds that are the hallmark of progressive rock guitar.',
+      'This NAM Pack captures infinite sustain and atmospheric tone — a masterclass in signal chain design. A Hiwatt DR103 provides the clean headroom, fed by an Electro-Harmonix Big Muff Pi for singing sustain, a Dallas Arbiter Fuzz Face for aggressive leads, and a Colorsound Power Boost for pushing the front end. This pack delivers both crystalline clean tones and soaring, sustain-rich lead sounds that are the hallmark of progressive rock guitar.',
     amps: ['Hiwatt DR103 (100W)', 'Fender Twin Reverb', 'Alembic F2B Preamp'],
     cabinets: ['Hiwatt 4x12 (Fane Crescendo speakers)', 'Fender 2x12 Twin Cabinet'],
     pedals: ['Electro-Harmonix Big Muff Pi (Ram\'s Head)', 'Dallas Arbiter Fuzz Face', 'Colorsound Power Boost'],
     microphones: ['Neumann U87 (Room)', 'Shure SM57 (On-Axis)', 'Royer R-121 (Ribbon)', 'AKG C414'],
     imageQuery: 'hiwatt-amp-pedals',
   },
-  'stevie-ray-vaughan': {
+  'texas-flood': {
     description:
-      'This NAM Pack captures the thick, punchy Texas blues tone that made SRV the definitive blues guitarist of his generation. Built around a Fender Vibroverb and a Dumble Steel String Singer, the signal chain faithfully models the Tube Screamer TS-808 that provided the signature midrange boost, pushing the amps into rich, harmonic saturation. From the stinging attack of "Pride and Joy" to the raw power of "Crossroads," this pack delivers the full spectrum of Vaughan\'s legendary tone.',
+      'This NAM Pack captures the thick, punchy Texas blues tone that defined a generation of blues guitar. Built around a Fender Vibroverb and a Dumble Steel String Singer, the signal chain faithfully models the Tube Screamer TS-808 that provided the signature midrange boost, pushing the amps into rich, harmonic saturation. This pack delivers the full spectrum of legendary blues tone.',
     amps: ['Fender Vibroverb (6L6)', 'Dumble Steel String Singer', 'Fender Super Reverb', 'Marshall Major'],
     cabinets: ['Fender 2x12 Vibroverb (Jensen C12N)', 'Dumble 4x12 (EV12L)', 'Fender 4x10 Super Reverb'],
     pedals: ['Ibanez Tube Screamer TS-808', 'Dallas Arbiter Fuzz Face'],
     microphones: ['Shure SM57 (On-Axis)', 'Sennheiser MD421', 'Neumann U87 (Room)', 'Royer R-121 (Ribbon)'],
     imageQuery: 'fender-vibroverb-amp',
   },
-  'john-mayer': {
+  'continuum-gravity': {
     description:
-      'This NAM Pack captures the silky smooth clean tone with just a hint of breakup that defines John Mayer\'s signature sound. Built around a Two Rock Custom Reverb and a Fender Deluxe Reverb, the signal chain models the Klon Centaur for transparent overdrive and the Tube Screamer for midrange push. From the delicate fingerpicking of "Neon" to the soulful bends of "Slow Dancing in a Burning Room," this pack delivers the warm, dynamic, and endlessly expressive tone that has made Mayer one of the most sought-after guitarists of his generation.',
+      'This NAM Pack captures silky smooth clean tone with just a hint of breakup — the signature sound of modern blues-pop guitar. Built around a Two Rock Custom Reverb and a Fender Deluxe Reverb, the signal chain models the Klon Centaur for transparent overdrive and the Tube Screamer for midrange push. This pack delivers warm, dynamic, and endlessly expressive tone.',
     amps: ['Two Rock Custom Reverb Signature', 'Fender Deluxe Reverb', 'Fender Twin Reverb', 'Dumble Overdrive Special'],
     cabinets: ['Two Rock 1x12 (Celestion G12-65)', 'Fender 1x12 Deluxe (Jensen C12Q)', 'Fender 2x12 Twin (Jensen C12N)'],
     pedals: ['Klon Centaur', 'Ibanez Tube Screamer TS-808', 'Boss BD-2 Blues Driver'],
     microphones: ['Neumann U87 (Room)', 'Shure SM57 (On-Axis)', 'Royer R-121 (Ribbon)', 'AKG C451'],
     imageQuery: 'two-rock-guitar-amp',
   },
-  'jimmy-page': {
+  'stairway-to-rock': {
     description:
-      'This NAM Pack captures the iconic Les Paul crunch that drove Led Zeppelin\'s entire catalog. Page\'s tone is built on a Marshall Super Lead 1959 pushed to its limits, with a Gibson Les Paul Standard delivering the thick, midrange-heavy crunch that defined hard rock. The Sola Sound Tone Bender provides the searing fuzz tones of "Communication Breakdown." From the thunderous "Whole Lotta Love" to the delicate layers of "Stairway to Heaven," this pack covers the full dynamic range.',
+      'This NAM Pack captures the iconic Les Paul crunch that drove a generation of rock. Built on a Marshall Super Lead 1959 pushed to its limits, with a Gibson Les Paul Standard delivering the thick, midrange-heavy crunch that defined hard rock. The Sola Sound Tone Bender provides searing fuzz tones. This pack covers the full dynamic range from thunderous riffs to delicate layers.',
     amps: ['Marshall Super Lead 1959 (100W)', 'Vox AC30', 'Fender Twin Reverb'],
     cabinets: ['Marshall 4x12 Straight (G12M-25 Greenbacks)', 'Marshall 4x12 Slant (G12H-30)', 'Vox 2x12 (Celestion Blue)'],
     pedals: ['Sola Sound Tone Bender Professional MKII'],
     microphones: ['Shure SM57 (On-Axis)', 'Sennheiser MD421', 'Neumann U87 (Room)', 'AKG C414'],
     imageQuery: 'marshall-super-lead-amp',
   },
-  'eric-clapton': {
+  'woman-tone-blues': {
     description:
-      'This NAM Pack captures the legendary "woman tone" from the Cream era — a singing, vocal-like midrange with controlled feedback and creamy sustain that redefined blues-rock guitar. Built around a Marshall 1959 Super Lead and a Fender Champ for studio cleans, the signal chain models the Dallas Arbiter Fuzz Face and an Ibanez Tube Screamer TS-808 that produced the iconic "Sunshine of Your Love" and "White Room" tones. This pack delivers both the aggressive, overdriven blues-rock crunch and the surprisingly delicate clean tones Clapton coaxed from his Gibson SG and Stratocaster.',
+      'This NAM Pack captures the legendary "woman tone" — a singing, vocal-like midrange with controlled feedback and creamy sustain that redefined blues-rock guitar. Built around a Marshall 1959 Super Lead and a Fender Champ for studio cleans, the signal chain models the Dallas Arbiter Fuzz Face and an Ibanez Tube Screamer TS-808. This pack delivers both aggressive, overdriven blues-rock crunch and surprisingly delicate clean tones.',
     amps: ['Marshall 1959 Super Lead (100W)', 'Fender Champ (Studio Clean)', 'Fender Twin Reverb'],
     cabinets: ['Marshall 4x12 Straight (G12M-25 Greenbacks)', 'Fender 1x12 Champ Cabinet'],
     pedals: ['Dallas Arbiter Fuzz Face', 'Ibanez Tube Screamer TS-808'],
     microphones: ['Shure SM57 (On-Axis)', 'Royer R-121 (Ribbon)', 'Neumann U87 (Room)', 'Sennheiser MD421'],
     imageQuery: 'marshall-vintage-amp-guitar',
   },
-  'steve-vai': {
+  'for-the-love-of-guitar': {
     description:
-      'This NAM Pack captures the ultra-fast legato, whammy bar acrobatics, and high-gain tone that defined instrumental guitar virtuosity. Built around a Carvin Legacy and a Marshall JCM 900, the signal chain models the Ibanez Jem through a Boss DS-1 for the aggressive distortion of "For the Love of God" and an Ibanez Jemini Overdrive for added sustain and saturation. From the soaring melodies of "Liberty" to the technical wizardry of "Attitude Song," this pack delivers the full spectrum of Vai\'s groundbreaking tone.',
+      'This NAM Pack captures ultra-fast legato, whammy bar acrobatics, and the high-gain tone that defined instrumental guitar virtuosity. Built around a Carvin Legacy and a Marshall JCM 900, the signal chain models a Boss DS-1 for aggressive distortion and an Ibanez Jemini Overdrive for added sustain and saturation. This pack delivers the full spectrum of groundbreaking virtuoso tone.',
     amps: ['Carvin Legacy VL100', 'Marshall JCM 900 4100', 'Mesa/Boogie Mark IV'],
     cabinets: ['Carvin Legacy 4x12 (Vintage 30)', 'Marshall 4x12 Slant (G12M-25)'],
     pedals: ['Boss DS-1 Distortion', 'Ibanez Jemini Overdrive'],
     microphones: ['Shure SM57 (On-Axis)', 'Sennheiser MD421', 'Neumann U87 (Room)', 'Royer R-121 (Ribbon)'],
     imageQuery: 'carvin-legacy-amp',
   },
-  'acdc': {
+  'thunder-voltage': {
     description:
-      'This NAM Pack captures the raw, high-gain Marshall stack crunch that defined rock and roll power. AC/DC\'s tone is deceptively simple — a Gibson SG through a Marshall Super Lead pushed to its natural crunch point, with no pedals in the chain. This pack models both the Angus Young lead tone (bright, cutting, with singing sustain) and the Malcolm Young rhythm tone (thick, punchy, with massive low-mid weight). From the wall-of-sound power of "Back in Black" to the driving riff of "Highway to Hell," this is the definitive rock tone.',
+      'This NAM Pack captures the raw, high-gain Marshall stack crunch that defined rock and roll power. The tone is deceptively simple — a Gibson SG through a Marshall Super Lead pushed to its natural crunch point, with no pedals in the chain. This pack models both the bright, cutting lead tone with singing sustain and the thick, punchy rhythm tone with massive low-mid weight. This is the definitive rock tone.',
     amps: ['Marshall Super Lead 1959 (100W)', 'Marshall JTM 45 (Blues Breakup)'],
     cabinets: ['Marshall 4x12 Straight (G12M-25 Greenbacks)', 'Marshall 4x12 Slant (G12M-25 Greenbacks)'],
     pedals: ['No pedals — pure amp overdrive only'],
     microphones: ['Shure SM57 (On-Axis)', 'Shure SM57 (Off-Axis)', 'Sennheiser MD421', 'Neumann U87 (Room)'],
     imageQuery: 'marshall-stack-amp-wall',
   },
-  'santana': {
+  'black-magic-spirit': {
     description:
-      'This NAM Pack captures the sustained Mesa-style lead tone with singing midrange and spiritual sustain that is Carlos Santana\'s signature. Built around a Mesa/Boogie Mark I and a Dumble Overdrive Special, the signal chain models the PRS Santana through a Tube Screamer TS-808 for the midrange push that drives the amps into rich, harmonic saturation. From the soaring sustain of "Europa" to the rhythmic drive of "Black Magic Woman," this pack delivers the warm, vocal quality that has defined Santana\'s tone across five decades.',
+      'This NAM Pack captures the sustained Mesa-style lead tone with singing midrange and spiritual sustain. Built around a Mesa/Boogie Mark I and a Dumble Overdrive Special, the signal chain models a Tube Screamer TS-808 for the midrange push that drives the amps into rich, harmonic saturation. This pack delivers the warm, vocal quality that has defined legendary Latin rock tone across five decades.',
     amps: ['Mesa/Boogie Mark I (Colander)', 'Dumble Overdrive Special', 'Mesa/Boogie Mark IV'],
     cabinets: ['Mesa/Boogie 4x12 (Vintage 30)', 'Dumble 1x12 (EV12L)', 'Mesa/Boogie 2x12 (Celestion V30)'],
     pedals: ['Ibanez Tube Screamer TS-808'],
     microphones: ['Shure SM57 (On-Axis)', 'Royer R-121 (Ribbon)', 'Neumann U87 (Room)', 'Sennheiser MD421'],
     imageQuery: 'mesa-boogie-amp-guitar',
   },
-  'bb-king': {
+  'lucille-blues': {
     description:
-      'This NAM Pack captures the warm blues-box tones with stinging vibrato and golden touch that made Lucille sing. Built around a Fender Twin Reverb and a Lab Series L5, the signal chain models the Gibson ES-355 through a clean, slightly compressed tone that allows every nuance of touch to shine through. From the sweet, vocal quality of "The Thrill Is Gone" to the stinging attack of "Every Day I Have the Blues," this pack delivers the full emotional range of BB King\'s legendary tone — a masterclass in tone through touch.',
-    amps: ['Fender Twin Reverb', 'Lab Series L5 (BB\'s preferred amp)', 'Fender Deluxe Reverb'],
+      'This NAM Pack captures warm blues-box tones with stinging vibrato and golden touch. Built around a Fender Twin Reverb and a Lab Series L5, the signal chain models a clean, slightly compressed tone that allows every nuance of touch to shine through. This pack delivers the full emotional range of legendary blues tone — a masterclass in tone through touch.',
+    amps: ['Fender Twin Reverb', 'Lab Series L5', 'Fender Deluxe Reverb'],
     cabinets: ['Fender 2x12 Twin (Jensen C12N)', 'Lab Series 2x12 (EV12L)'],
     pedals: ['Boss BD-2 Blues Driver', 'Ibanez Tube Screamer TS-9 (Low Gain)'],
     microphones: ['Neumann U87 (Room)', 'Shure SM57 (On-Axis)', 'Royer R-121 (Ribbon)', 'AKG C414'],
@@ -142,18 +142,18 @@ function slugify(name: string): string {
 }
 
 const gearImages: Record<string, string> = {
-  'eric-johnson': 'https://images.pexels.com/photos/1449426/pexels-photo-1449426.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'jimi-hendrix': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'slash': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'david-gilmour': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'stevie-ray-vaughan': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'john-mayer': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'jimmy-page': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'eric-clapton': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'steve-vai': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'acdc': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'santana': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
-  'bb-king': 'https://images.pexels.com/photos/1449426/pexels-photo-1449426.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'cliffs-of-manhattan': 'https://images.pexels.com/photos/1449426/pexels-photo-1449426.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'voodoo-experience': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'appetite-for-rock': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'dark-side-of-the-wall': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'texas-flood': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'continuum-gravity': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'stairway-to-rock': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'woman-tone-blues': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'for-the-love-of-guitar': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'thunder-voltage': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'black-magic-spirit': 'https://images.pexels.com/photos/8512714/pexels-photo-8512714.jpeg?auto=compress&cs=tinysrgb&w=1200',
+  'lucille-blues': 'https://images.pexels.com/photos/1449426/pexels-photo-1449426.jpeg?auto=compress&cs=tinysrgb&w=1200',
 };
 
 // Cart context - import from ShopPage

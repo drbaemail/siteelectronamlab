@@ -49,7 +49,7 @@ export default function HomePage() {
 
           <p className="mt-8 text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.3s' }}>
             Digital guitar plugins that capture the soul of legendary players.
-            From Hendrix to Slash, experience the tones that shaped music history.
+            From Voodoo Experience to Appetite for Rock, experience the tones that shaped music history.
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>

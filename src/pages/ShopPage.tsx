@@ -112,11 +112,11 @@ function CornerAccents({ color }: { color: string }) {
   );
 }
 
-function HendrixGraphic({ color }: { color: string }) {
+function VoodooGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
-      {/* Silhouette head with bandana */}
+      {/* Psychedelic silhouette */}
       {/* Head shape */}
       <path d="M 100 35 C 85 35, 75 45, 75 60 C 75 72, 80 80, 85 85 L 85 90 L 115 90 L 115 85 C 120 80, 125 72, 125 60 C 125 45, 115 35, 100 35" fill="none" stroke={color} strokeWidth="1.8" opacity="0.6" />
       {/* Bandana tied on head */}
@@ -149,7 +149,7 @@ function SlashGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
-      {/* Silhouette head with top hat */}
+      {/* Top hat silhouette */}
       {/* Top hat */}
       <rect x="78" y="28" width="44" height="6" rx="1" fill="none" stroke={color} strokeWidth="2" opacity="0.7" />
       <rect x="85" y="10" width="30" height="18" rx="1" fill="none" stroke={color} strokeWidth="2" opacity="0.7" />
@@ -178,11 +178,11 @@ function SlashGraphic({ color }: { color: string }) {
   );
 }
 
-function GilmourGraphic({ color }: { color: string }) {
+function DarkSideGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
-      {/* Dark Side of the Moon prism/triangle */}
+      {/* Prism/triangle symbol */}
       <polygon points="100,40 50,150 150,150" fill="none" stroke={color} strokeWidth="1.8" opacity="0.6" />
       {/* Light beam entering */}
       <line x1="30" y1="95" x2="65" y2="95" stroke={color} strokeWidth="1.2" opacity="0.5" />
@@ -205,14 +205,15 @@ function GilmourGraphic({ color }: { color: string }) {
   );
 }
 
-function SRVGraphic({ color }: { color: string }) {
+function TexasFloodGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
       {/* Texas lone star */}
       <polygon points="100,35 108,60 135,60 113,75 120,100 100,83 80,100 87,75 65,60 92,60" fill="none" stroke={color} strokeWidth="1.5" opacity="0.5" />
-      {/* SRV text */}
-      <text x="100" y="125" textAnchor="middle" fill={color} fontSize="28" fontFamily="serif" fontWeight="bold" opacity="0.4" letterSpacing="4">SRV</text>
+      {/* Texas Flood text */}
+      <text x="100" y="118" textAnchor="middle" fill={color} fontSize="16" fontFamily="serif" fontWeight="bold" opacity="0.4" letterSpacing="2">TEXAS</text>
+      <text x="100" y="135" textAnchor="middle" fill={color} fontSize="16" fontFamily="serif" fontWeight="bold" opacity="0.4" letterSpacing="2">FLOOD</text>
       {/* Texas outline simplified */}
       <path d="M 55 140 L 65 135 L 80 138 L 95 135 L 110 138 L 120 135 L 130 140 L 140 138 L 145 145 L 135 155 L 120 150 L 100 155 L 80 150 L 65 155 L 55 145 Z" fill="none" stroke={color} strokeWidth="1" opacity="0.3" />
       {/* Vibroverb amp */}
@@ -224,11 +225,11 @@ function SRVGraphic({ color }: { color: string }) {
   );
 }
 
-function MayerGraphic({ color }: { color: string }) {
+function ContinuumGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
-      {/* Continuum V symbol - the main Mayer album symbol */}
+      {/* Continuum V symbol */}
       {/* Large V shape with inner lines */}
       <path d="M 50 40 L 100 160 L 150 40" fill="none" stroke={color} strokeWidth="2.5" opacity="0.6" />
       {/* Inner V - creating the double-V continuum effect */}
@@ -250,16 +251,16 @@ function MayerGraphic({ color }: { color: string }) {
   );
 }
 
-function PageGraphic({ color }: { color: string }) {
+function StairwayGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
-      {/* Zoso symbol (simplified Jimmy Page symbol from Led Zeppelin IV) */}
+      {/* Zoso-inspired symbol */}
       <path d="M 85 50 L 85 130 L 90 130 L 90 60 L 110 60 L 110 130 L 115 130 L 115 50" fill="none" stroke={color} strokeWidth="1.5" opacity="0.5" />
       <circle cx="100" cy="90" r="20" fill="none" stroke={color} strokeWidth="1.2" opacity="0.4" />
       <line x1="100" y1="70" x2="100" y2="110" stroke={color} strokeWidth="1" opacity="0.3" />
       <path d="M 90 80 L 100 90 L 110 80" fill="none" stroke={color} strokeWidth="1" opacity="0.3" />
-      {/* Led Zeppelin four symbols reference */}
+      {/* Four symbols reference */}
       <circle cx="60" cy="145" r="8" fill="none" stroke={color} strokeWidth="1" opacity="0.3" />
       <path d="M 56 145 L 64 145" stroke={color} strokeWidth="0.8" opacity="0.25" />
       <polygon points="100,137 92,155 108,155" fill="none" stroke={color} strokeWidth="1" opacity="0.3" />
@@ -269,7 +270,7 @@ function PageGraphic({ color }: { color: string }) {
   );
 }
 
-function ClaptonGraphic({ color }: { color: string }) {
+function WomanToneGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
@@ -287,11 +288,11 @@ function ClaptonGraphic({ color }: { color: string }) {
   );
 }
 
-function VaiGraphic({ color }: { color: string }) {
+function LoveOfGuitarGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
-      {/* Triangle with eye (Vai's known symbol) */}
+      {/* Triangle with eye symbol */}
       <polygon points="100,35 50,140 150,140" fill="none" stroke={color} strokeWidth="2" opacity="0.6" />
       <ellipse cx="100" cy="105" rx="18" ry="12" fill="none" stroke={color} strokeWidth="1.5" opacity="0.5" />
       <circle cx="100" cy="105" r="6" fill="none" stroke={color} strokeWidth="1.2" opacity="0.5" />
@@ -309,7 +310,7 @@ function VaiGraphic({ color }: { color: string }) {
   );
 }
 
-function EricJohnsonGraphic({ color }: { color: string }) {
+function CliffsGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
@@ -344,11 +345,11 @@ function ACDCGraphic({ color }: { color: string }) {
   );
 }
 
-function SantanaGraphic({ color }: { color: string }) {
+function BlackMagicGraphic({ color }: { color: string }) {
   return (
     <svg viewBox="0 0 200 200" className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
       <CornerAccents color={color} />
-      {/* African-Latino ethnic patterns - Adinkra/Mesoamerican inspired */}
+      {/* Ethnic patterns - Adinkra/Mesoamerican inspired */}
       {/* Central mandala with ethnic petal pattern */}
       <circle cx="100" cy="75" r="28" fill="none" stroke={color} strokeWidth="1.5" opacity="0.5" />
       <circle cx="100" cy="75" r="18" fill="none" stroke={color} strokeWidth="1" opacity="0.4" />
@@ -440,29 +441,29 @@ function ProductGraphic({ product }: { product: Product }) {
   const artistKey = product.artist.toLowerCase().replace(/[^a-z]/g, '');
 
   switch (artistKey) {
-    case 'jimihendrix':
-      return <HendrixGraphic color={color} />;
-    case 'slash':
+    case 'voodooexperience':
+      return <VoodooGraphic color={color} />;
+    case 'appetiteforrock':
       return <SlashGraphic color={color} />;
-    case 'davidgilmour':
-      return <GilmourGraphic color={color} />;
-    case 'stevierayvaughan':
-      return <SRVGraphic color={color} />;
-    case 'johnmayer':
-      return <MayerGraphic color={color} />;
-    case 'jimmypage':
-      return <PageGraphic color={color} />;
-    case 'ericclapton':
-      return <ClaptonGraphic color={color} />;
-    case 'stevevai':
-      return <VaiGraphic color={color} />;
-    case 'ericjohnson':
-      return <EricJohnsonGraphic color={color} />;
-    case 'acdc':
+    case 'darksideofthewall':
+      return <DarkSideGraphic color={color} />;
+    case 'texasflood':
+      return <TexasFloodGraphic color={color} />;
+    case 'continuumgravity':
+      return <ContinuumGraphic color={color} />;
+    case 'stairwaytorock':
+      return <StairwayGraphic color={color} />;
+    case 'womantoneblues':
+      return <WomanToneGraphic color={color} />;
+    case 'fortheloveofguitar':
+      return <LoveOfGuitarGraphic color={color} />;
+    case 'cliffsofmanhattan':
+      return <CliffsGraphic color={color} />;
+    case 'thundervoltage':
       return <ACDCGraphic color={color} />;
-    case 'santana':
-      return <SantanaGraphic color={color} />;
-    case 'bbking':
+    case 'blackmagicspirit':
+      return <BlackMagicGraphic color={color} />;
+    case 'lucilleblues':
       return <BBKingGraphic color={color} />;
     default:
       return <DefaultAmpGraphic color={color} />;
