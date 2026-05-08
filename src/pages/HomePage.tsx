@@ -65,7 +65,7 @@ export default function HomePage() {
         {/* Scroll indicator */}
         <a
           href="#about"
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 hover:text-neon-cyan transition-colors animate-bounce"
+          className="absolute bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-gray-500 hover:text-neon-cyan transition-colors animate-bounce"
         >
           <span className="font-display text-[0.6rem] tracking-[0.3em] uppercase">Scroll</span>
           <ChevronDown className="w-5 h-5" />

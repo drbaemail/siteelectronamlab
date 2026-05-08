@@ -49,7 +49,7 @@ export default function Contacts() {
                 </div>
                 <div>
                   <h3 className="font-display text-sm font-bold tracking-wide text-white">Email</h3>
-                  <p className="text-sm text-gray-400 mt-1">support@electronolab.com</p>
+                  <p className="text-sm text-gray-400 mt-1">support@electronamlab.com</p>
                   <p className="text-xs text-gray-600 mt-1">We respond within 24 hours</p>
                 </div>
               </div>
