@@ -102,7 +102,7 @@ export default function CartSlideOut() {
                 &euro;{total.toFixed(2)}
               </span>
             </div>
-            <button className="w-full btn-neon-filled py-1.5 text-xs justify-center rounded">
+            <button className="w-full btn-neon py-1 text-xs justify-center rounded">
               Checkout
             </button>
           </div>

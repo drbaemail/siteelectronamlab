@@ -7,7 +7,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden pb-20">
         {/* Background effects */}
         <div className="absolute inset-0 bg-grid" />
         <div className="absolute inset-0 bg-gradient-to-b from-dark-950 via-dark-950/80 to-dark-950" />

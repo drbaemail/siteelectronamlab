@@ -45,7 +45,7 @@ export default function Hero() {
         </p>
 
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: '0.6s' }}>
-          <a href="#shop" className="btn-neon-filled rounded">
+          <a href="#shop" className="btn-neon rounded">
             Explore Plugins
           </a>
           <a href="#about" className="btn-neon btn-neon-pink rounded">

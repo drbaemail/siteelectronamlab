@@ -180,18 +180,18 @@
     text-shadow: 0 0 8px #ff00e5;
   }
 
-  .btn-neon-filled {
-    color: #020209;
-    background: #00f0ff;
-    border: 1px solid #00f0ff;
-    box-shadow: 0 0 15px #00f0ff40;
+  .btn-neon-green {
+    color: #39ff14;
+    border-color: #39ff14;
   }
 
-  .btn-neon-filled:hover {
-    background: #33f5ff;
+  .btn-neon-green:hover {
+    background: #39ff1410;
     box-shadow:
-      0 0 20px #00f0ff60,
-      0 0 40px #00f0ff30;
+      0 0 10px #39ff1440,
+      0 0 20px #39ff1420,
+      inset 0 0 10px #39ff1410;
+    text-shadow: 0 0 8px #39ff14;
   }
 }
 

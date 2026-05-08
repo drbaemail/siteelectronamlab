@@ -139,8 +139,7 @@ export default function FreePage() {
 
               <button
                 onClick={() => setShowModal(true)}
-                className="btn-neon-filled rounded w-full justify-center text-sm py-1.5"
-                style={{ borderColor: '#39ff14', backgroundColor: '#39ff14', color: '#020209' }}
+                className="btn-neon btn-neon-green rounded w-full justify-center text-sm py-1"
               >
                 <Download className="w-4 h-4" />
                 Download Free Pack
@@ -224,15 +223,15 @@ export default function FreePage() {
                   <button
                     type="submit"
                     disabled={!email || !consent || downloading}
-                    className={`w-full py-1.5 rounded font-display text-xs font-semibold tracking-widest uppercase flex items-center justify-center gap-2 transition-all duration-300 ${
+                    className={`w-full py-1 rounded font-display text-xs font-semibold tracking-widest uppercase flex items-center justify-center gap-2 transition-all duration-300 ${
                       email && consent && !downloading
-                        ? 'bg-neon-green text-dark-950 border border-neon-green shadow-[0_0_15px_#39ff1440] hover:shadow-[0_0_20px_#39ff1460]'
-                        : 'bg-dark-700 text-gray-600 border border-white/5 cursor-not-allowed'
+                        ? 'text-neon-green border border-neon-green hover:bg-neon-green/10 hover:shadow-[0_0_15px_#39ff1440]'
+                        : 'text-gray-600 border border-white/5 cursor-not-allowed'
                     }`}
                   >
                     {downloading ? (
                       <>
-                        <div className="w-4 h-4 border-2 border-dark-950/30 border-t-dark-950 rounded-full animate-spin" />
+                        <div className="w-4 h-4 border-2 border-neon-green/30 border-t-neon-green rounded-full animate-spin" />
                         Preparing Download...
                       </>
                     ) : (

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, MapPin, MessageSquare, Send, Github, Twitter } from 'lucide-react';
+import { Mail, MessageSquare, Send, Github, Twitter } from 'lucide-react';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' });
@@ -58,19 +58,6 @@ export default function ContactPage() {
                   <h3 className="font-display text-sm font-bold tracking-wide text-white">Email</h3>
                   <p className="text-sm text-gray-400 mt-1">support@electronamlab.com</p>
                   <p className="text-xs text-gray-600 mt-1">We respond within 24 hours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="glass-card rounded-xl p-6 border border-neon-pink/10">
-              <div className="flex items-start gap-4">
-                <div className="w-10 h-10 rounded-lg bg-neon-pink/5 border border-neon-pink/20 flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-5 h-5 text-neon-pink" />
-                </div>
-                <div>
-                  <h3 className="font-display text-sm font-bold tracking-wide text-white">Studio</h3>
-                  <p className="text-sm text-gray-400 mt-1">Austin, TX</p>
-                  <p className="text-xs text-gray-600 mt-1">Open by appointment only</p>
                 </div>
               </div>
             </div>
@@ -157,7 +144,7 @@ export default function ContactPage() {
               <button
                 type="submit"
                 disabled={sending}
-                className="btn-neon-filled rounded w-full justify-center text-sm py-1.5"
+                className="btn-neon btn-neon-green rounded w-full justify-center text-sm py-1"
               >
                 <Send className="w-4 h-4" />
                 {sending ? 'Sending...' : 'Send Message'}
